@@ -1,7 +1,6 @@
 function homogeneous_coordinate
 
 close all; clear all;
-% load('vehicleParams');
 
 vehi=[0,1,1,-1,-1,0;2,1,-1,-1,1,2];
 ax=[-10,10,-10,10];

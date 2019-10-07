@@ -1,6 +1,7 @@
 function directionVehicle
   clear all; close all;
-  load vehicleParams;
+  vehi=[0,1,1,-1,-1,0;2,1,-1,-1,1,2];
+  ax=[-10,10,-10,10];
 
   drawVehicle(vehi(1,:),vehi(2,:),ax);
   
